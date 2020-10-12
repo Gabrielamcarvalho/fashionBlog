@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashion Blog</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  </head>
+  <body>
+    <div class="overlay overlay-slide-left" id="overlay">
+      <nav>
+        <ul>
+          <li id="nav-1" class="slide-out-1"><a href="#home">Home</a></li>
+          <li id="nav-2" class="slide-out-2"><a href="#about">About</a></li>
+          <li id="nav-3" class="slide-out-3"><a href="#skills">Skills</a></li>
+          <li id="nav-4" class="slide-out-4">
+            <a href="#projects">Projects</a>
+          </li>
+          <li id="nav-5" class="slide-out-5"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- hamburger menu -->
+    <div class="menu-bars" id="menu-bars">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+
+    <!-- Sections -->
+    <section id="home">
+      <a href="#" target="_blank" class="logo">Fashion Blog</a>
+      <div class="hero">
+        <h1>FASHION BLOG</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+          magni temporibus
+        </p>
+        <button class="btn"><a href="#about">Start Here</a></button>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap">
+      <div class="img-container">
+        <img src="./images/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="woman image">
+      </div>
+      <h2>Learn More About Me</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt dolores aut qui assumenda. Vitae ex fugit autem, cum, nam necessitatibus, veritatis illo ab odio repudiandae nulla fugiat? Magnam, voluptas!</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>These Are My Strengths</h2>
+      <div class="skills-container">
+      <div class="skill-card">
+       <i class="fas fa-tshirt"></i>
+        <h3>Lorem, ipsum.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, dolores.</p>
+      </div>
+      <div class="skill-card">
+       <i class="fas fa-vest-patches"></i>
+        <h3>Lorem, ipsum.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, dolores.</p>
+      </div>
+      <div class="skill-card">
+       <i class="fas fa-female"></i>
+        <h3>Lorem, ipsum.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, dolores.</p>
+      </div>
+    </div>
+    </section>
+
+    <section id="projects">
+      <h2>These Are My Results</h2>
+      <div class="projects-container">
+        <div class="project-item">
+          <div class="img-container">
+
+            <img src="./images/clem-onojeghuo-YhgXfs80RJo-unsplash.jpg" alt="image of model with jeans and white t-shirt">
+          </div>
+          <div class="project-content">
+   
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="img-container">
+
+            <img src="./images/ussama-azam-xgNSlx7DjYM-unsplash.jpg" alt="image of model with jeans and white t-shirt">
+          </div>
+          <div class="project-content">
+     
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="img-container">
+
+            <img src="./images/ian-dooley-8HqPXTToMn0-unsplash.jpg" alt="image of model with jeans and white t-shirt">
+          </div>
+          <div class="project-content">
+   
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Available Anytime</h2>
+      <form >
+        <label for="name">Name</label>
+        <input type="text">
+        <label for="email">Email</label>
+        <input type="email">
+        <label for="textarea">Enter your Message</label>
+        <textarea name="" id="textarea"></textarea>
+        <button class="btn">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <h6>Website made with &hearts; by Gabriela M. Carvalho 2020</h6>
+      <div class="social-media">
+      <p>Check out my Social Media</p>
+       <ul class="social-media__icon">
+              <a
+                 href="https://github.com/Gabrielamcarvalho"
+                 target="_blank"
+                 class="icon-link"
+                 >
+              <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+              <a
+                 href="https://www.linkedin.com/in/gabriela-carvalho-916313174/"
+                 target="_blank"
+                 class="icon-link"
+                 >
+              <i class="fab fa-linkedin" aria-hidden="true"></i>
+              <a
+                 href="https://gabrielamcarvalho.github.io/Portfolio/"
+                 target="_blank"
+                 class="icon-link"
+                 >
+          <i class="far fa-user"></i>
+              </a>
+           </ul>
+           </div>
+      </div>
+    </footer>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
